@@ -1,0 +1,95 @@
+workdir=/lustre/scratch/jmanthey/07_ethiopia_historical
+
+# make output directories
+cd ${workdir}
+
+mkdir 00_fastq
+mkdir 01_cleaned
+mkdir 01_bam_files
+mkdir 10_filter
+
+# combine two runs of two individuals
+cat EB001_S18_L002_R1_001.fastq.gz >> Turdus_abyssinicus_EB001_R1.fastq.gz
+cat EB001_S18_L002_R2_001.fastq.gz >> Turdus_abyssinicus_EB001_R2.fastq.gz
+cat EB004_S19_L002_R1_001.fastq.gz >> Parophasma_galinieri_EB004_R1.fastq.gz
+cat EB004_S19_L002_R2_001.fastq.gz >> Parophasma_galinieri_EB004_R2.fastq.gz
+
+
+mkdir cos_sem
+cd cos_sem
+mkdir 01_bam_files
+mkdir 02_vcf
+mkdir 03_vcf
+mkdir 04_filtered_vcf
+mkdir 05_structure
+mkdir 06_window_stats
+mkdir 07_roh
+mkdir 08_snpeff
+mkdir 12_filter_vcf
+cd ..
+
+mkdir mel_cho
+cd mel_cho
+mkdir 01_bam_files
+mkdir 02_vcf
+mkdir 03_vcf
+mkdir 04_filtered_vcf
+mkdir 05_structure
+mkdir 06_window_stats
+mkdir 07_roh
+mkdir 08_snpeff
+mkdir 12_filter_vcf
+cd ..
+
+mkdir par_gal
+cd par_gal
+mkdir 01_bam_files
+mkdir 02_vcf
+mkdir 03_vcf
+mkdir 04_filtered_vcf
+mkdir 05_structure
+mkdir 06_window_stats
+mkdir 07_roh
+mkdir 08_snpeff
+mkdir 12_filter_vcf
+cd ..
+
+mkdir ser_tri
+cd ser_tri
+mkdir 01_bam_files
+mkdir 02_vcf
+mkdir 03_vcf
+mkdir 04_filtered_vcf
+mkdir 05_structure
+mkdir 06_window_stats
+mkdir 07_roh
+mkdir 08_snpeff
+mkdir 12_filter_vcf
+cd ..
+
+mkdir tur_aby
+cd tur_aby
+mkdir 01_bam_files
+mkdir 02_vcf
+mkdir 03_vcf
+mkdir 04_filtered_vcf
+mkdir 05_structure
+mkdir 06_window_stats
+mkdir 07_roh
+mkdir 08_snpeff
+mkdir 12_filter_vcf
+cd ..
+
+mkdir zos_pol
+cd zos_pol
+mkdir 01_bam_files
+mkdir 02_vcf
+mkdir 03_vcf
+mkdir 04_filtered_vcf
+mkdir 05_structure
+mkdir 06_window_stats
+mkdir 07_roh
+mkdir 08_snpeff
+mkdir 12_filter_vcf
+cd ..
+
