@@ -1,0 +1,14 @@
+Melaenornis_chocolatinus_EB002	1
+Melaenornis_chocolatinus_EB003	2
+Melaenornis_chocolatinus_EB053	3
+Melaenornis_chocolatinus_EB059	4
+Melaenornis_chocolatinus_EB063	5
+Melaenornis_chocolatinus_EB067	6
+Melaenornis_chocolatinus_EB084	7
+Mel-cho-135978	8
+Mel-cho-83048	9
+Mel-cho-83053	10
+Mel-cho-83054	11
+Mel-cho-83055	12
+Mel-cho-83056	13
+Mel-cho-83058	14

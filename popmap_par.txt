@@ -1,0 +1,10 @@
+Par-gal-82972	1
+Par-gal-82978	2
+Par-gal-82979	3
+Par-gal-82980	4
+Parophasma_galinieri_EB004	5
+Parophasma_galinieri_EB017	6
+Parophasma_galinieri_EB056	7
+Parophasma_galinieri_EB070	8
+Parophasma_galinieri_EB073	9
+Parophasma_galinieri_EB076	10
