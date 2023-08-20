@@ -11,7 +11,7 @@
 ##############    START OPTIONS     #####################################
 
 	# project specific options
-	project_directory <- "/lustre/scratch/jmanthey/07_ethiopia_historical/mel-cho"
+	project_directory <- "/lustre/scratch/jmanthey/07_ethiopia_historical/mel_cho"
 	directory_name <- "11_genotype_mel"
 	reference_genome_location <- "/home/jmanthey/hist_references/Tae_gut/GCF_003957565.2_bTaeGut1.4.pri_genomic.fna"
 	cluster <- "quanah"
